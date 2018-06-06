@@ -293,6 +293,8 @@ header {
           text-transform: uppercase;
           line-height: 26px; }
         #content #programs .program_info .program_info_detail img {
+          object-fit: cover;
+          object-position: top;
           height: 195px;
           filter: grayscale(1);
           width: 100%; }
