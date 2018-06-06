@@ -350,6 +350,8 @@ header {
         float: left;
         position: relative; }
         #content #photo .container_photo .photo img {
+          object-fit: cover;
+          object-position: top;
           position: absolute;
           left: 0;
           bottom: 0;

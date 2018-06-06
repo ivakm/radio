@@ -437,6 +437,8 @@ header {
         float: left;
         position: relative;
         img {
+          object-fit: cover;
+          object-position: top;
           position: absolute;
           left: 0;
           bottom: 0;
