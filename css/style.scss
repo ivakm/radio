@@ -750,6 +750,13 @@ header {
               }
             }
           }
+          .social_link{
+            a{
+            &:hover{
+              text-decoration: none;
+            }
+            }
+          }
         }
         .contact_feedback {
           display: flex;
@@ -831,8 +838,13 @@ footer {
       line-height: 40px;
     }
     .social {
-      i {
+        a{
+          &:hover{
+            text-decoration: none;
+          }
+          i {
         color: white;
+      }
       }
     }
   }

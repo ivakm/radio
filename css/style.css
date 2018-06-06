@@ -611,6 +611,8 @@ header {
           flex-direction: column; }
           #content #contacts .container .contacts_wrapper .contact_info .contact_phone a:hover {
             text-decoration: none; }
+        #content #contacts .container .contacts_wrapper .contact_info .social_link a:hover {
+          text-decoration: none; }
       #content #contacts .container .contacts_wrapper .contact_feedback {
         display: flex;
         justify-content: center;
@@ -672,7 +674,9 @@ footer {
       font-weight: bold;
       font-size: 30px;
       line-height: 40px; }
-    footer .container .social i {
+    footer .container .social a:hover {
+      text-decoration: none; }
+    footer .container .social a i {
       color: white; }
 
 /*# sourceMappingURL=style.css.map */
