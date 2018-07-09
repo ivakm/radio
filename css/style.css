@@ -278,7 +278,7 @@ header {
       margin-bottom: 20px; }
       #content #programs .program_info .program_info_detail {
         height: 250px;
-        width: 420px;
+        width: 33.33%;
         float: left;
         text-decoration: none; }
         #content #programs .program_info .program_info_detail:hover h3 {
